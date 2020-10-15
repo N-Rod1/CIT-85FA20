@@ -1,0 +1,37 @@
+body {
+    font-size: 36px;
+    color:black;
+}
+
+li:first-child {
+    color: red;
+}
+
+ul:first-child {
+    background-color: lightblue;
+}
+
+li:last-child {
+    color: lightgreen;
+}
+
+li:nth-child(even) {
+    color: mediumblue;
+}
+li:nth-child(odd) {
+    background-color: mediumpurple;
+}
+
+li:nth-child(3n+2) {
+    color: mediumvioletred;
+}
+li:nth-child(3) {
+    color: oldlace;
+}
+
+
+article:only-child {
+    text-decoration: underline;
+    color: olive;
+    font-size: larger;
+}
