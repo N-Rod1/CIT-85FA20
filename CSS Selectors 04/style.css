@@ -1,0 +1,22 @@
+body {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 36px;
+}
+div p {
+    color: blue;
+    text-decoration: underline overline;
+}
+
+div > p {
+    color: maroon;
+}
+
+div ~ p {
+    color: midnightblue;
+    
+}
+
+div + p {
+    color: orange;
+}
