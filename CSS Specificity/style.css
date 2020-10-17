@@ -1,0 +1,116 @@
+body {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 36px;
+}
+
+/*This selector is for the h1 within a div*/
+
+div h1 {
+    height: 20px;
+    width: 1000px;
+    border: 1px solid black;
+    border-bottom-left-radius: 50px 30px;
+    border-bottom-right-radius: 50px 30px;
+    border-top-left-radius: 50px 30px;
+    border-top-right-radius: 50px 30px;
+    font-size: medium;
+    margin: auto;
+}
+
+/*This selector is for a link. for me it's youtube link*/
+
+a:link {
+    color: darkblue;
+    background-color: chocolate;
+    
+}
+
+/*This selector is for links that have been visited already*/
+
+a:visited {
+    color: darkcyan;
+    background-color: darkgoldenrod;
+    
+}
+
+/*This selector allows me to change the color of the link when the cursor is on it*/
+
+a:hover {
+    color: red;
+    background-color: darkgray;
+}
+
+/*This selector allows me to change an active link*/
+
+a:active {
+    color: yellow;
+   
+}
+
+
+/*This selector is for all the tags after a div*/
+
+div p {
+    padding-top: 20px;
+    margin-top: auto;
+    height: .5px;
+    color: blue;
+    border: double;
+    margin: auto;
+    width: 1000px;
+}
+
+/*This selector is for the id "set3"*/
+
+#set3 {
+    border: 1px solid darkslategray;
+    margin:auto;
+    margin-top: 20px;
+    padding: 0%;
+    width: 1000px;
+    height: 250px;
+
+}
+
+/*This selector is for the last tag in the div*/
+
+div:last-child {
+    background-color: dimgray;
+    width: 1000px;
+}
+
+/* this selector is for all the tags that are right after/beneath div*/
+
+
+div > p {
+    color: dodgerblue;
+}
+
+
+/*This selector is for the class "type"*/
+
+.type {
+    color: burlywood;
+    border: solid darkmagenta;
+    background-color: darkorchid;
+    
+}
+
+/*This is for any p tags not in a div*/
+
+p {
+    border: solid darkblue;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    height: auto;
+}
+
+/*This a selector to pick a specific tag*/
+
+p:nth-child(3) {
+    color: chartreuse;
+}
+
+
