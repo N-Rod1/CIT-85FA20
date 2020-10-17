@@ -1,0 +1,46 @@
+body {
+    font-size: 24px;
+    height: auto;
+    width: auto;
+    margin: 0%;
+    background-color: darkseagreen;
+}
+
+header {
+    position: relative;
+    height: 100px;
+    color: darkolivegreen;
+    display: flex;
+}
+
+.nav-menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .nav-menu li + li {
+    margin-left: 30px;
+  }
+
+  .nav-menu a {
+      position: relative;
+      display: block;
+  }
+
+  a:link {
+    color: darkolivegreen;
+}
+
+a:visited {
+    color: navy;
+}
+
+a:hover {
+    color: palegreen;
+}
+
+a:active {
+    color: yellow;
+}
