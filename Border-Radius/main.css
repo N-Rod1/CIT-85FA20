@@ -1,0 +1,11 @@
+div {
+    width: 50px;
+    height: 25px;
+    border: 10px solid yellow;
+    border-radius: 40%;
+    margin: auto;
+    display: inline-flex;
+    background-color: yellow;
+
+}
+
