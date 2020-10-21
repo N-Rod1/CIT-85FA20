@@ -1,0 +1,44 @@
+/*This is a block element and does not require the CSS display to be set
+to block as it does it on it's own.
+*/
+div {
+    width: 1000px;
+    height: 50px;
+    border: 5px solid darkgoldenrod;
+    border-radius: 40%;
+    margin: 5px;
+    padding: 20px;
+    padding-top: 35px;
+    background-color: yellow;
+    text-align: center;
+
+}
+
+/*THe CSS does not the display to be set to inline as the element 
+is an inline elements and has the default inline characteristics. 
+This does not allow any adjustments to be made to the height and width 
+because normally you wouldn't need it.
+*/
+span {
+    border: 3px solid blue;
+    border-radius: 0;
+    margin: 10px;
+    background-color: cornflowerblue;
+}
+
+/* This is inline-block display. It's allowing the Div (Block element)
+to be displayed with inline characteristics, but still allows for 
+height and width to be adjusted/customized.
+*/
+#one {
+    width: 1000px;
+    height: 50px;
+    border: 5px solid darkgoldenrod;
+    border-radius: 40%;
+    margin: 5px;
+    padding: 20px;
+    padding-top: 35px;
+    display: inline-block;
+    background-color: yellow;
+    text-align: center;
+}
