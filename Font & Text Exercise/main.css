@@ -1,0 +1,129 @@
+body {
+    width: 70rem;
+    text-align: center;
+}
+
+
+/*(1) Use a generic serif font in an HTML document.*/
+
+#serif {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*(2) Use a generic san-serif font in an HTML document.*/
+
+#sanserif {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*(3) Use a font from Google fonts that has different font-weights. Use the different font-weights*/
+
+#one {
+    font-size: 2rem;
+    font-family: 'Turret Road', cursive;
+    font-weight: 200;
+}
+#two {
+    font-size: 2rem;
+    font-family: 'Turret Road', cursive;
+    font-weight: 300;
+}
+#three {
+    font-size: 2rem;
+    font-family: 'Turret Road', cursive;
+    font-weight: 400;
+}
+#four {
+    font-size: 2rem;
+    font-family: 'Turret Road', cursive;
+    font-weight: 500;
+}
+#five {
+    font-size: 2rem;
+    font-family: 'Turret Road', cursive;
+    font-weight: 700;
+}
+#six {
+    font-size: 2rem;
+    font-family: 'Turret Road', cursive;
+    font-weight: 800;
+}
+
+
+
+
+/*(4) Using CSS, transform all of the text of a sentence to uppercase and italic.*/
+
+#upper {
+    font-size: 2rem;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/*(5) Set spacing between characters in a short phrase.*/
+
+#space {
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 1rem;
+}
+
+
+/*(6) Add shadow to the text in a H1 tag.*/
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 1rem 1rem .5rem blue;
+}
+
+/*(7) Remove the underline on an anchor tag. And then add the underline in when someone hovers over the link.*/
+
+a {
+    font-size: 2rem;
+    font-weight: bold;
+}
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+/*(8) Show text that is no longer relevant by putting a line through it.*/
+
+#irrelevant {
+    font-size: 2rem;
+    font-weight: normal;
+    
+}
+span {
+    text-decoration: line-through;
+}
+
+/*(9) Indent the first line of a paragraph.*/
+
+#indent {
+    font-size: 2rem;
+    font-weight: normal;
+    text-indent: 10rem;
+}
