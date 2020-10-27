@@ -1,0 +1,32 @@
+body {
+    font-size: 1rem;
+}
+
+header {
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    border: 2px solid black;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+a {
+    padding: 3rem;
+    border: 2px solid navy;
+    border-radius: 50px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: cadetblue;
+}
