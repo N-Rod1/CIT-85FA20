@@ -1,44 +1,58 @@
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
+    height: 100vh;
+    border: 3px dashed red;
     display: flex;
-    flex-flow: row wrap;
-    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
 
 }
 
 div {
-    height: 100px;
-    width: 1000px;
-    text-align: center;
+    height: 200px;
+    border: 2px solid black;
+    flex-grow: 1;
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
     font-size: 2rem;
     font-weight: bold;
-    border: 1px solid black;
-    padding-top: 40px;
-    flex-basis: auto
-
 }
 
 .flex1 {
     background-color: coral;
-    width: 100%;
+    flex-basis: 100%;
 }
 
 .flex2 {
     background-color: darkcyan;
-    flex-grow: 2;
-    
+   flex-basis: 60%;
 }
 
 .flex3 {
     background-color: darkolivegreen;
-    flex-grow: 1;
+    flex-basis: 40%;
 }
 
 .flex4 {
     background-color: gold;
-    flex-grow: 1;
+    
 }
 
 .flex5 {
     background-color: plum;
-    flex-grow: 2;
+   
 }
