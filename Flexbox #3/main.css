@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    
+
+}
+
+div {
+    height: 100px;
+    width: 1000px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 1px solid black;
+    padding-top: 40px;
+    flex-basis: auto;
+
+}
+
+.flex1 {
+    background-color: coral;
+    width: 100%;
+}
+
+.flex2 {
+    background-color: darkcyan;
+    flex-grow: 2;
+    
+}
+
+.flex3 {
+    background-color: darkolivegreen;
+    flex-grow: 1;
+}
+
+.flex4 {
+    background-color: gold;
+    flex-grow: 1;
+}
+
+.flex5 {
+    background-color: plum;
+    flex-grow: 2;
+}
