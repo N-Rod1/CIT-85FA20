@@ -1,0 +1,19 @@
+.one {
+    color: white;
+    background-color: navy;
+}
+
+.two {
+    color: white;
+    background-color: blue;
+}
+
+.three {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.four {
+    border: 2px solid red;
+    box-sizing: border-box;
+}
