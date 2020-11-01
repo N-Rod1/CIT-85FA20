@@ -1,0 +1,13 @@
+.flex1 {
+    flex-basis: 100%;
+
+}
+
+.flex2 {
+    flex-basis: 60%;
+
+}
+
+.flex3 {
+    flex-basis: 40%;
+}
