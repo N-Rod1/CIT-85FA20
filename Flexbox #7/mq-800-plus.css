@@ -1,0 +1,26 @@
+body {
+    padding: 0 3em;
+}
+
+article {
+    width: 70%;
+}
+
+aside {
+    width: 15%;
+}
+
+aside:nth-last-child(4) {
+    order: 1;
+}
+
+article {
+    order: 2;
+}
+aside:nth-last-child(3) {
+    order: 3;
+}
+
+footer {
+    order: 4;
+}
