@@ -25,11 +25,9 @@ main {
 }
 
 div {
-    height: 250px;
-    
-    
+    height: 250px;   
     background-color: mediumseagreen;  
-    
+  
 }
 
 #left {
