@@ -1,0 +1,44 @@
+html, body, header, div, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: inherit;
+}
+header, footer {
+    height: 200px;
+    
+}
+
+header {
+    background-color: gold;
+    border: 10px solid blue;
+}
+footer {
+    background-color: indigo;
+    clear: left;
+    border: 10px solid red;
+}
+
+div {
+    height: 250px;
+    border: 10px solid darkgreen;
+    background-color: mediumseagreen;
+    
+}
+
+#left {
+    width: 20%;
+    height: 230px;
+    float: left;
+    background-color: mediumturquoise;
+    border: 2px solid black;
+}
+
+#right {
+    width: 80%;
+    height: 230px;
+    float: left;
+    border: 2px solid black;
+
+}
