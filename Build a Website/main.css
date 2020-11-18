@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: inherit;
+    font-size: inherit;
+}
+
+
+body {
+    height: 100vh;
+    background-image: url(Black\ Sand\ Beach\ Iceland.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Noto Sans', sans-serif;
+    
+    
+}
+
+#idx-atf {
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+#idx-atf > div {
+    height: 18vh;
+}
+
+#idx-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 25px;
+    text-align: center;
+    
+}
+h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-bottom: 25px;
+    text-align: center;
+    
+}
+
+button, a {
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5%;
+    text-align: center;
+    
+}
+
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+    text-align: center;
+}
