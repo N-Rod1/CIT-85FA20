@@ -1,0 +1,10 @@
+section {
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    border-bottom-width: 4px;
+    border-bottom-style: groove;
+    border-bottom-color: #4c2b03;
+}
+
+
