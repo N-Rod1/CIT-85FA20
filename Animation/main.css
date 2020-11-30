@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 600px;
+    height: 600px;
+    border: 2px solid rgb(111, 110, 121);
+    border-radius: 50%;
+    margin: 20%;
+    background-color: paleturquoise;
+    animation-name: change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+div {
+    text-align: center;
+}
+
+p {
+    margin: 40%;
+    font-size: 25px;
+}
+@keyframes change {
+    40% {background-color: paleturquoise;}
+    60% {background-color: rgb(158, 169, 175);}
+}
