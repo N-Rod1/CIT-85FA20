@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    border: 2px solid black;
+    background-image: url(./img/BlackSand.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lora', serif;
+    position: relative;
+    
+
+}
+
+/*This is for the dropdown menu watched this video https://youtu.be/rgUp302f_lY/ */
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(211, 211, 211, 0.5);
+}
+nav p {
+    color: whitesmoke;
+    font-size: 25px;
+    line-height: 50px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul {
+    padding-left: 70%;
+    
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 23px 14px;
+    text-decoration: none;
+
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: rgba(211, 211, 211, 1);
+    padding: 10px;
+    border-radius: 5px;
+}
+nav ul li:hover ul {
+    display: block;
+    
+}
+
+nav ul li ul li {
+    width: 200px;
+    border-radius: 5px;
+}
+
+nav ul li ul li a {
+    padding: 5px 14px;
+}
+
+nav ul li ul li a:hover {
+    background-color: rgba(119, 136, 153, 0.5);
+}
+
+section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Kind of a title*/ 
+
+.title {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: whitesmoke;
+    }
+
+
+
+/*Slideshow: watched this video for help https://youtu.be/TzAshjkhFQw*/
+
+.slideshow {
+    width: 600px;
+    height: 300px;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    left: 30%;
+    top: 30%;
+    margin-top: -50px;
+    margin-left: -100px;
+    
+}
+
+.slideshow > * {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(119, 136, 153, 0.5);
+    animation: slide 12s infinite;
+    overflow: hidden;
+}
+
+div:nth-child(1) {
+    left: 0%;
+    animation-delay: -1s;
+    background-image: url(./img/Iceland.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div:nth-child(2) {
+    animation-delay: 2s;
+    background-image: url(./img/Geothermal\ Lake\ Askj.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div:nth-child(3) {
+    animation-delay: 5s;
+    background-image: url(./img/Blue\ Lagoon.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div:nth-child(4) {
+    
+    animation-delay: 8s;
+    background-image: url(./img/Geyser\ Strokkur.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div:nth-child(5) {
+    
+    animation-delay: 10s;
+    background-image: url(./img/National\ Park\ Landmannalaugar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div:nth-child(6) {
+    left: 0%;
+    animation-delay: 13s;
+    background-image: url(./img/Northern\ Lights.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes slide {
+    0% {left: 100%; width: 100%;}
+    5% {left: 0%;}
+    25% {left: 0%;}
+    30% {left: -100%; width: 100%;}
+    30.0001% {left: -100%; width: 0%;}
+    100% {left: 100%; width:0%;}
+}
+
+div p {
+    color: dimgray;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+/*The footer*/
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    font-size: 15px;
+    color: whitesmoke;
+}

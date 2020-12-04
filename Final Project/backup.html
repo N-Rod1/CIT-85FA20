@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <p>Welcome to Iceland!</p>
+            <!--The dropdown menu-->
+            <ul>
+                <li><a href="#">Menu</a>
+                        <ul >
+                            <li><a href="#"> Where is Iceland?</a></li>
+                            <li><a href="#">Population and Capital</a></li>
+                            <li><a href="#">Natural Attractions</a></li>
+                            <li><a href="#">Culture and History</a></li>
+                            <li><a href="#">Gallery</a></li>
+                        </ul>
+                    </li>
+                </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div id="title">
+            <h1>Have you ever been curious about Iceland?</h1>
+        </div>    
+    </section>
+<!--The slideshow-->
+
+    <Section class=slideshow>
+        <div class="slideshow-container">
+
+            <!--The Images-->
+            <div class="myslides fade">
+                <div class="order">1 / 11</div>
+                <img src="./img/Iceland.jpg" alt="">
+                <div class="text"> Iceland is located North West of the UK, in the Norwegian Sea</div>
+            </div>
+            
+            <div class="myslides fade">
+                <div class="order">2 / 11</div>
+                <img src="./img/Dettifoss Waterfall.jpg" alt="">
+                <div class="text">The Dettifoss Waterfall</div>
+            </div>
+
+            <div class="myslides fade">
+                <div class="order">3 / 11</div>
+                <img src="./img/Geothermal Lake Askj.jpg" alt="">
+                <div class="text">Geothermal Lake Askja</div>
+            </div>
+
+            <div class="myslides fade">
+                <div class="order">4 / 11</div>
+                <img src="./img/Geyser Strokkur.jpg" alt="">
+                <div class="text">Geyser Strokkur</div>
+            </div>
+
+            <div class="myslides fade">
+                <div class="order">5 / 11</div>
+                <img src="./img/Glacial Lagoon.jpg" alt="">
+                <div class="text">Glacial Lagoon</div>
+            </div>
+
+            <div class="myslides fade">
+                <div class="order">6 / 11</div>
+                <img src="./img/Hallgrimskyrka.jpg" alt="">
+                <div class="text">Hallgrimskyrka</div>
+            </div>
+
+            <div class="myslides fade">
+                <div class="order">7 / 11</div>
+                <img src="./img/Blue Lagoon.jpg" alt="">
+                <div class="text">Blue Lagoon</div>
+            </div>
+
+            <div class="myslides fade">
+                <div class="order">8 / 11</div>
+                <img src="./img/National Park Landmannalaugar.jpg" alt="">
+                <div class="text">National Park Landmannalaugar</div>
+            </div>
+
+            <div class="myslides fade">
+                <div class="order">9 / 11</div>
+                <img src="./img/Northern Lights.jpg" alt="">
+                <div class="text">Northern Lights</div>
+            </div>
+
+            <div class="myslides fade">
+                <div class="order">10 / 11</div>
+                <img src="./img/reykjavik.jpg" alt="">
+                <div class="text">Reykjavik</div>
+            </div>
+
+            <div class="myslides fade">
+                <div class="order">11 / 11</div>
+                <img src="./img/Vatnajokull Ice Cave.jpg" alt="">
+                <div class="text">Vatnajokull Ice Cave</div>
+            </div>
+            
+            <!--Next and Previous Buttons-->
+            <a class="previous" onclick="PlusSlides(-1)"></a>
+            <a class="nexy" onclick="PlusSlides(1)"></a>
+
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+    </Section>
+
+
+    <footer>
+        <p> This website was made for my CIT-85 FA2020 Final: Noemi Rodriguez.</p>
+    </footer>
+</body>
+</html>

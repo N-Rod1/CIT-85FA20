@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    border: 2px solid black;
+    background-image: url(./img/BlackSand.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lora', serif;
+
+}
+header {
+    text-align: center;
+    font-size: 25px;
+    background-color: gray;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    border-radius: 50px;
+    
+}
+
+a {
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+}
+li:hover {
+    background-color: lightsteelblue;
+}
+
+section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+
+
+
+
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+/*Big line break*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    border: 2px solid black;
+    background-image: url(./img/BlackSand.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lora', serif;
+    position: relative;
+
+}
+
+/*This is for the dropdown menu watched this video https://youtu.be/rgUp302f_lY/ */
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(211, 211, 211, 0.5);
+}
+nav p {
+    color: whitesmoke;
+    font-size: 25px;
+    line-height: 50px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul {
+    padding-left: 83%;
+    
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 23px 14px;
+    text-decoration: none;
+
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: rgba(211, 211, 211, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+nav ul li:hover ul {
+    display: block;
+    
+}
+
+nav ul li ul li {
+    width: 200px;
+    border-radius: 5px;
+}
+
+nav ul li ul li a {
+    padding: 5px 14px;
+}
+
+nav ul li ul li a:hover {
+    background-color: rgba(119, 136, 153, 0.5);
+}
+
+/*Kind of a title*/ 
+
+section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+
+#title {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+/*Slideshow*/
+.slideshow {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+.myslides {
+    
+    overflow: hidden;
+}
+
+.previous, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 15px;
+    color: rgba(119, 136, 153, 0.5) ;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+
+.order {
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+  }
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+
+/*The footer*/
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    font-size: 15px;
+    color: whitesmoke;
+}
